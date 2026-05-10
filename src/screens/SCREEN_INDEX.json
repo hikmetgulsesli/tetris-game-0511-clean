@@ -1,0 +1,47 @@
+[
+  {
+    "screenId": "ca3828aa6dad406a99c53a7269b1de23",
+    "title": "Results - Tetris Clean",
+    "componentName": "ResultsTetrisClean",
+    "file": "src/screens/ResultsTetrisClean.tsx",
+    "buttons": 3,
+    "inputs": 0,
+    "links": 0
+  },
+  {
+    "screenId": "ae418463fbf546c1b85ca08446045209",
+    "title": "Settings - Tetris Clean",
+    "componentName": "SettingsTetrisClean",
+    "file": "src/screens/SettingsTetrisClean.tsx",
+    "buttons": 23,
+    "inputs": 5,
+    "links": 4
+  },
+  {
+    "screenId": "61a720519dee4b4f90709a1992b289ae",
+    "title": "Main Menu - Tetris Clean",
+    "componentName": "MainMenuTetrisClean",
+    "file": "src/screens/MainMenuTetrisClean.tsx",
+    "buttons": 4,
+    "inputs": 0,
+    "links": 4
+  },
+  {
+    "screenId": "1a12e75855764668b3ef4d4a5573a34c",
+    "title": "Help & Rules - Tetris Clean",
+    "componentName": "HelpRulesTetrisClean",
+    "file": "src/screens/HelpRulesTetrisClean.tsx",
+    "buttons": 2,
+    "inputs": 0,
+    "links": 0
+  },
+  {
+    "screenId": "89163b57e3f644898d239c706aec5a21",
+    "title": "Playfield - Tetris Clean",
+    "componentName": "PlayfieldTetrisClean",
+    "file": "src/screens/PlayfieldTetrisClean.tsx",
+    "buttons": 3,
+    "inputs": 0,
+    "links": 4
+  }
+]
