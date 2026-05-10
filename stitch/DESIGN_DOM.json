@@ -1,0 +1,2236 @@
+{
+  "generatedAt": "2026-05-10T22:54:20.869Z",
+  "screenCount": 5,
+  "screens": {
+    "1a12e75855764668b3ef4d4a5573a34c": {
+      "screenId": "1a12e75855764668b3ef4d4a5573a34c",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "flex-row",
+          "classes": [
+            "bg-surface",
+            "dark:bg-surface",
+            "border-b",
+            "border-outline-variant",
+            "flex",
+            "justify-between",
+            "items-center",
+            "w-full",
+            "px-lg",
+            "h-16"
+          ],
+          "childCount": 3
+        },
+        {
+          "tag": "main",
+          "layout": "flex-row",
+          "classes": [
+            "flex-1",
+            "w-full",
+            "max-w-4xl",
+            "mx-auto",
+            "px-lg",
+            "py-xl"
+          ],
+          "childCount": 37
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "arrow_back",
+          "classes": [
+            "text-primary-container",
+            "dark:text-primary-container",
+            "hover:bg-surface-variant",
+            "dark:hover:bg-surface-variant",
+            "transition-colors",
+            "duration-200",
+            "p-sm",
+            "rounded-lg",
+            "flex",
+            "items-center",
+            "justify-center"
+          ],
+          "icon": "arrow_back",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Initialize Sequence",
+          "classes": [
+            "bg-primary-container",
+            "text-[#F8FAFC]",
+            "font-body-md",
+            "text-body-md",
+            "px-xl",
+            "py-sm",
+            "rounded-DEFAULT",
+            "hover:brightness-110",
+            "active:scale-98",
+            "transition-all",
+            "flex",
+            "items-center",
+            "gap-sm"
+          ],
+          "icon": "videogame_asset",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [
+        "arrow_back",
+        "check_circle",
+        "videogame_asset"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "secondary-fixed-dim": "#b9c7df",
+        "on-error": "#690005",
+        "inverse-surface": "#e1e2ed",
+        "tertiary": "#b9c7e0",
+        "tertiary-container": "#606e84",
+        "surface": "#11131b",
+        "on-tertiary-container": "#eaf0ff",
+        "primary": "#b4c5ff",
+        "secondary": "#b9c7df",
+        "secondary-container": "#3c4a5e",
+        "on-secondary-fixed-variant": "#3a485b",
+        "surface-bright": "#373942",
+        "tertiary-fixed-dim": "#b9c7e0",
+        "secondary-fixed": "#d5e3fc",
+        "on-primary-container": "#eeefff",
+        "surface-container": "#1d1f27",
+        "on-surface-variant": "#c3c6d7",
+        "tertiary-fixed": "#d5e3fd",
+        "on-primary": "#002a78",
+        "surface-variant": "#32343d",
+        "outline-variant": "#434655",
+        "background": "#11131b",
+        "on-background": "#e1e2ed",
+        "on-secondary-container": "#abb9d1",
+        "on-tertiary-fixed-variant": "#3a485c",
+        "on-secondary-fixed": "#0d1c2e",
+        "surface-container-high": "#282a32",
+        "on-primary-fixed-variant": "#003ea8",
+        "primary-fixed-dim": "#b4c5ff",
+        "on-secondary": "#233144",
+        "on-tertiary-fixed": "#0d1c2f",
+        "on-primary-fixed": "#00174b",
+        "error-container": "#93000a",
+        "inverse-primary": "#0053db",
+        "surface-container-lowest": "#0c0e16",
+        "surface-dim": "#11131b",
+        "on-surface": "#e1e2ed",
+        "surface-container-low": "#191b23",
+        "outline": "#8d90a0",
+        "on-error-container": "#ffdad6",
+        "surface-tint": "#b4c5ff",
+        "primary-container": "#2563eb",
+        "surface-container-highest": "#32343d",
+        "inverse-on-surface": "#2e3039",
+        "error": "#ffb4ab",
+        "primary-fixed": "#dbe1ff",
+        "on-tertiary": "#233144"
+      },
+      "fonts": [
+        "Material Symbols Outlined",
+        "Inter",
+        "JetBrains Mono"
+      ],
+      "layoutHints": {
+        "gridCols": 1,
+        "flexDirection": "col"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "arrow_back",
+          "icon": "arrow_back",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Initialize Sequence",
+          "icon": "videogame_asset",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [],
+      "title": "Help & Rules - Tetris Clean"
+    },
+    "61a720519dee4b4f90709a1992b289ae": {
+      "screenId": "61a720519dee4b4f90709a1992b289ae",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "nav",
+          "layout": "block",
+          "classes": [
+            "bg-surface-container",
+            "dark:bg-surface-container",
+            "docked",
+            "full-height",
+            "left-0",
+            "w-64",
+            "border-r",
+            "border-outline-variant",
+            "flat",
+            "no"
+          ],
+          "childCount": 8
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-1",
+            "flex",
+            "flex-col",
+            "h-screen",
+            "lg:ml-64",
+            "relative",
+            "bg-background",
+            "overflow-y-auto"
+          ],
+          "childCount": 45
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "help",
+          "classes": [
+            "text-on-surface-variant",
+            "hover:text-on-surface",
+            "hover:bg-surface-variant",
+            "p-sm",
+            "rounded-full",
+            "transition-colors",
+            "duration-200"
+          ],
+          "icon": "help",
+          "action": "navigate",
+          "expectedBehavior": "navigate:/help",
+          "expectedRoute": "/help",
+          "routeInferred": true
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "classes": [
+            "text-on-surface-variant",
+            "hover:text-on-surface",
+            "hover:bg-surface-variant",
+            "p-sm",
+            "rounded-full",
+            "transition-colors",
+            "duration-200"
+          ],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#",
+          "expectedRoute": "#"
+        },
+        {
+          "kind": "button",
+          "label": "RESUME GAME",
+          "classes": [
+            "flex-1",
+            "bg-primary-container",
+            "text-on-primary-container",
+            "font-label-caps",
+            "text-label-caps",
+            "py-md",
+            "px-lg",
+            "rounded-DEFAULT",
+            "hover:brightness-110",
+            "active:scale-[0.98]",
+            "transition-all",
+            "duration-200",
+            "border",
+            "border-transparent"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "NEW GAME",
+          "classes": [
+            "flex-1",
+            "bg-transparent",
+            "border",
+            "border-outline-variant",
+            "text-on-surface",
+            "font-label-caps",
+            "text-label-caps",
+            "py-md",
+            "px-lg",
+            "rounded-DEFAULT",
+            "hover:bg-surface-variant",
+            "active:scale-[0.98]",
+            "transition-all",
+            "duration-200"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Tetris Clean",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "person",
+          "classes": [],
+          "icon": "person",
+          "action": "navigate",
+          "expectedRoute": "/profile",
+          "routeInferred": true,
+          "expectedBehavior": "navigate:/profile"
+        },
+        {
+          "kind": "button",
+          "label": "Pro Account Player Profile",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Play",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "play_arrow",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Stats",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "bar_chart",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "leaderboard",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "leaderboard",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "settings",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        }
+      ],
+      "cards": [],
+      "icons": [
+        "person",
+        "play_arrow",
+        "bar_chart",
+        "leaderboard",
+        "settings",
+        "help",
+        "open_in_new"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "secondary-fixed-dim": "#b9c7df",
+        "on-error": "#690005",
+        "inverse-surface": "#e1e2ed",
+        "tertiary": "#b9c7e0",
+        "tertiary-container": "#606e84",
+        "surface": "#11131b",
+        "on-tertiary-container": "#eaf0ff",
+        "primary": "#b4c5ff",
+        "secondary": "#b9c7df",
+        "secondary-container": "#3c4a5e",
+        "on-secondary-fixed-variant": "#3a485b",
+        "surface-bright": "#373942",
+        "tertiary-fixed-dim": "#b9c7e0",
+        "secondary-fixed": "#d5e3fc",
+        "on-primary-container": "#eeefff",
+        "surface-container": "#1d1f27",
+        "on-surface-variant": "#c3c6d7",
+        "tertiary-fixed": "#d5e3fd",
+        "on-primary": "#002a78",
+        "surface-variant": "#32343d",
+        "outline-variant": "#434655",
+        "background": "#11131b",
+        "on-background": "#e1e2ed",
+        "on-secondary-container": "#abb9d1",
+        "on-tertiary-fixed-variant": "#3a485c",
+        "on-secondary-fixed": "#0d1c2e",
+        "surface-container-high": "#282a32",
+        "on-primary-fixed-variant": "#003ea8",
+        "primary-fixed-dim": "#b4c5ff",
+        "on-secondary": "#233144",
+        "on-tertiary-fixed": "#0d1c2f",
+        "on-primary-fixed": "#00174b",
+        "error-container": "#93000a",
+        "inverse-primary": "#0053db",
+        "surface-container-lowest": "#0c0e16",
+        "surface-dim": "#11131b",
+        "on-surface": "#e1e2ed",
+        "surface-container-low": "#191b23",
+        "outline": "#8d90a0",
+        "on-error-container": "#ffdad6",
+        "surface-tint": "#b4c5ff",
+        "primary-container": "#2563eb",
+        "surface-container-highest": "#32343d",
+        "inverse-on-surface": "#2e3039",
+        "error": "#ffb4ab",
+        "primary-fixed": "#dbe1ff",
+        "on-tertiary": "#233144"
+      },
+      "fonts": [
+        "Material Symbols Outlined",
+        "Inter",
+        "JetBrains Mono"
+      ],
+      "layoutHints": {
+        "flexDirection": "col"
+      },
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Play",
+          "icon": "play_arrow",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Stats",
+          "icon": "bar_chart",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "leaderboard",
+          "icon": "leaderboard",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "settings",
+          "icon": "settings",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "button",
+          "label": "help",
+          "icon": "help",
+          "action": "navigate",
+          "route": "/help",
+          "expectedBehavior": "navigate:/help"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "icon": "settings",
+          "action": "navigate",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "button",
+          "label": "RESUME GAME",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "NEW GAME",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Tetris Clean",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "person",
+          "icon": "person",
+          "action": "navigate",
+          "route": "/profile",
+          "expectedBehavior": "navigate:/profile"
+        },
+        {
+          "kind": "button",
+          "label": "Pro Account Player Profile",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "Tetris Clean",
+          "icon": null,
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "person",
+          "icon": "person",
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Pro Account Player Profile",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Play",
+          "icon": "play_arrow",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Stats",
+          "icon": "bar_chart",
+          "route": "#",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "leaderboard",
+          "icon": "leaderboard",
+          "route": "#",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "settings",
+          "icon": "settings",
+          "route": "#",
+          "active": false
+        }
+      ],
+      "title": "Main Menu - Tetris Clean"
+    },
+    "89163b57e3f644898d239c706aec5a21": {
+      "screenId": "89163b57e3f644898d239c706aec5a21",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "nav",
+          "layout": "flex-row",
+          "classes": [
+            "bg-surface",
+            "dark:bg-surface",
+            "border-b",
+            "border-outline-variant",
+            "flex",
+            "justify-between",
+            "items-center",
+            "w-full",
+            "px-lg",
+            "h-16"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "nav",
+          "layout": "flex-col",
+          "classes": [
+            "bg-surface-container",
+            "dark:bg-surface-container",
+            "hidden",
+            "lg:flex",
+            "flex-col",
+            "h-screen",
+            "fixed",
+            "left-0",
+            "top-0",
+            "pt-xl"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "flex-row",
+          "classes": [
+            "flex-1",
+            "lg:ml-64",
+            "pt-16",
+            "lg:pt-0",
+            "min-h-screen",
+            "flex",
+            "items-center",
+            "justify-center",
+            "bg-grid-pattern",
+            "relative"
+          ],
+          "childCount": 88
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "help",
+          "classes": [
+            "text-on-surface-variant",
+            "hover:text-on-surface",
+            "transition-colors",
+            "duration-200"
+          ],
+          "icon": "help",
+          "action": "navigate",
+          "expectedBehavior": "navigate:/help",
+          "expectedRoute": "/help",
+          "routeInferred": true
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "classes": [
+            "text-on-surface-variant",
+            "hover:text-on-surface",
+            "transition-colors",
+            "duration-200"
+          ],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#",
+          "expectedRoute": "#"
+        },
+        {
+          "kind": "button",
+          "label": "pause",
+          "classes": [
+            "bg-primary-container",
+            "text-on-primary-container",
+            "font-label-caps",
+            "text-label-caps",
+            "rounded-xl",
+            "px-md",
+            "py-md",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-sm",
+            "hover:brightness-110",
+            "active:scale-[0.98]",
+            "transition-all",
+            "flex-1",
+            "md:flex-none",
+            "border",
+            "border-primary/20",
+            "shadow-sm",
+            "mt-auto",
+            "md:mt-0"
+          ],
+          "icon": "pause",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Tetris Clean",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "classes": [],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedRoute": "/settings",
+          "routeInferred": true,
+          "expectedBehavior": "navigate:/settings"
+        },
+        {
+          "kind": "button",
+          "label": "Tetris Clean Pro Account",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Play",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "play_arrow",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Stats",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "bar_chart",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "leaderboard",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "leaderboard",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "settings",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        }
+      ],
+      "cards": [],
+      "icons": [
+        "help",
+        "settings",
+        "play_arrow",
+        "bar_chart",
+        "leaderboard",
+        "pause"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "secondary-fixed-dim": "#b9c7df",
+        "on-error": "#690005",
+        "inverse-surface": "#e1e2ed",
+        "tertiary": "#b9c7e0",
+        "tertiary-container": "#606e84",
+        "surface": "#11131b",
+        "on-tertiary-container": "#eaf0ff",
+        "primary": "#b4c5ff",
+        "secondary": "#b9c7df",
+        "secondary-container": "#3c4a5e",
+        "on-secondary-fixed-variant": "#3a485b",
+        "surface-bright": "#373942",
+        "tertiary-fixed-dim": "#b9c7e0",
+        "secondary-fixed": "#d5e3fc",
+        "on-primary-container": "#eeefff",
+        "surface-container": "#1d1f27",
+        "on-surface-variant": "#c3c6d7",
+        "tertiary-fixed": "#d5e3fd",
+        "on-primary": "#002a78",
+        "surface-variant": "#32343d",
+        "outline-variant": "#434655",
+        "background": "#11131b",
+        "on-background": "#e1e2ed",
+        "on-secondary-container": "#abb9d1",
+        "on-tertiary-fixed-variant": "#3a485c",
+        "on-secondary-fixed": "#0d1c2e",
+        "surface-container-high": "#282a32",
+        "on-primary-fixed-variant": "#003ea8",
+        "primary-fixed-dim": "#b4c5ff",
+        "on-secondary": "#233144",
+        "on-tertiary-fixed": "#0d1c2f",
+        "on-primary-fixed": "#00174b",
+        "error-container": "#93000a",
+        "inverse-primary": "#0053db",
+        "surface-container-lowest": "#0c0e16",
+        "surface-dim": "#11131b",
+        "on-surface": "#e1e2ed",
+        "surface-container-low": "#191b23",
+        "outline": "#8d90a0",
+        "on-error-container": "#ffdad6",
+        "surface-tint": "#b4c5ff",
+        "primary-container": "#2563eb",
+        "surface-container-highest": "#32343d",
+        "inverse-on-surface": "#2e3039",
+        "error": "#ffb4ab",
+        "primary-fixed": "#dbe1ff",
+        "on-tertiary": "#233144"
+      },
+      "fonts": [
+        "Inter",
+        "JetBrains Mono",
+        "Material Symbols Outlined"
+      ],
+      "layoutHints": {
+        "gridCols": 4,
+        "flexDirection": "col"
+      },
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Play",
+          "icon": "play_arrow",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Stats",
+          "icon": "bar_chart",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "leaderboard",
+          "icon": "leaderboard",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "settings",
+          "icon": "settings",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "button",
+          "label": "help",
+          "icon": "help",
+          "action": "navigate",
+          "route": "/help",
+          "expectedBehavior": "navigate:/help"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "icon": "settings",
+          "action": "navigate",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "button",
+          "label": "pause",
+          "icon": "pause",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Tetris Clean",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "icon": "settings",
+          "action": "navigate",
+          "route": "/settings",
+          "expectedBehavior": "navigate:/settings"
+        },
+        {
+          "kind": "button",
+          "label": "Tetris Clean Pro Account",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "Tetris Clean",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "help",
+          "icon": "help",
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "icon": "settings",
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Tetris Clean Pro Account",
+          "icon": null,
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Play",
+          "icon": "play_arrow",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Stats",
+          "icon": "bar_chart",
+          "route": "#",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "leaderboard",
+          "icon": "leaderboard",
+          "route": "#",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "settings",
+          "icon": "settings",
+          "route": "#",
+          "active": false
+        }
+      ],
+      "title": "Playfield - Tetris Clean"
+    },
+    "ae418463fbf546c1b85ca08446045209": {
+      "screenId": "ae418463fbf546c1b85ca08446045209",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "nav",
+          "layout": "flex-col",
+          "classes": [
+            "hidden",
+            "lg:flex",
+            "flex-col",
+            "h-screen",
+            "fixed",
+            "left-0",
+            "top-0",
+            "pt-xl",
+            "pb-md",
+            "border-r"
+          ],
+          "childCount": 6
+        },
+        {
+          "tag": "nav",
+          "layout": "flex-row",
+          "classes": [
+            "lg:hidden",
+            "flex",
+            "justify-between",
+            "items-center",
+            "w-full",
+            "px-lg",
+            "h-16",
+            "z-50",
+            "bg-surface",
+            "border-b"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-1",
+            "lg:ml-64",
+            "h-full",
+            "flex",
+            "flex-col",
+            "pt-16",
+            "lg:pt-0",
+            "overflow-y-auto",
+            "bg-background"
+          ],
+          "childCount": 30
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "settings",
+          "classes": [
+            "text-on-surface-variant",
+            "hover:bg-surface-variant",
+            "transition-colors",
+            "duration-200",
+            "p-sm",
+            "rounded-full"
+          ],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#",
+          "expectedRoute": "#"
+        },
+        {
+          "kind": "button",
+          "label": "1",
+          "classes": [
+            "w-10",
+            "h-10",
+            "rounded",
+            "border",
+            "border-outline-variant",
+            "bg-surface",
+            "hover:bg-surface-variant",
+            "text-on-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "focus:outline-none",
+            "focus:border-primary-container",
+            "focus:ring-1",
+            "focus:ring-primary-container",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "2",
+          "classes": [
+            "w-10",
+            "h-10",
+            "rounded",
+            "border",
+            "border-outline-variant",
+            "bg-surface",
+            "hover:bg-surface-variant",
+            "text-on-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "focus:outline-none",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "3",
+          "classes": [
+            "w-10",
+            "h-10",
+            "rounded",
+            "border",
+            "border-outline-variant",
+            "bg-surface",
+            "hover:bg-surface-variant",
+            "text-on-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "focus:outline-none",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "4",
+          "classes": [
+            "w-10",
+            "h-10",
+            "rounded",
+            "border",
+            "border-outline-variant",
+            "bg-surface",
+            "hover:bg-surface-variant",
+            "text-on-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "focus:outline-none",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "5",
+          "classes": [
+            "w-10",
+            "h-10",
+            "rounded",
+            "border",
+            "border-primary-container",
+            "bg-surface-variant",
+            "text-primary",
+            "font-mono-data",
+            "text-mono-data",
+            "focus:outline-none",
+            "scale-95",
+            "shadow-[0_0_0_1px_rgba(37,99,235,1)]"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "6",
+          "classes": [
+            "w-10",
+            "h-10",
+            "rounded",
+            "border",
+            "border-outline-variant",
+            "bg-surface",
+            "hover:bg-surface-variant",
+            "text-on-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "focus:outline-none",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "7",
+          "classes": [
+            "w-10",
+            "h-10",
+            "rounded",
+            "border",
+            "border-outline-variant",
+            "bg-surface",
+            "hover:bg-surface-variant",
+            "text-on-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "focus:outline-none",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "8",
+          "classes": [
+            "w-10",
+            "h-10",
+            "rounded",
+            "border",
+            "border-outline-variant",
+            "bg-surface",
+            "hover:bg-surface-variant",
+            "text-on-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "focus:outline-none",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "9",
+          "classes": [
+            "w-10",
+            "h-10",
+            "rounded",
+            "border",
+            "border-outline-variant",
+            "bg-surface",
+            "hover:bg-surface-variant",
+            "text-on-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "focus:outline-none",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "10",
+          "classes": [
+            "w-10",
+            "h-10",
+            "rounded",
+            "border",
+            "border-outline-variant",
+            "bg-surface",
+            "hover:bg-surface-variant",
+            "text-on-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "focus:outline-none",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "ArrowLeft",
+          "classes": [
+            "px-sm",
+            "py-xs",
+            "border",
+            "border-outline-variant",
+            "rounded",
+            "bg-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "text-on-surface",
+            "hover:border-primary",
+            "focus:border-primary",
+            "outline-none",
+            "min-w-[80px]",
+            "text-center"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "A",
+          "classes": [
+            "px-sm",
+            "py-xs",
+            "border",
+            "border-outline-variant",
+            "rounded",
+            "bg-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "text-on-surface",
+            "hover:border-primary",
+            "focus:border-primary",
+            "outline-none",
+            "min-w-[80px]",
+            "text-center"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "ArrowRight",
+          "classes": [
+            "px-sm",
+            "py-xs",
+            "border",
+            "border-outline-variant",
+            "rounded",
+            "bg-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "text-on-surface",
+            "hover:border-primary",
+            "focus:border-primary",
+            "outline-none",
+            "min-w-[80px]",
+            "text-center"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "D",
+          "classes": [
+            "px-sm",
+            "py-xs",
+            "border",
+            "border-outline-variant",
+            "rounded",
+            "bg-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "text-on-surface",
+            "hover:border-primary",
+            "focus:border-primary",
+            "outline-none",
+            "min-w-[80px]",
+            "text-center"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "ArrowUp",
+          "classes": [
+            "px-sm",
+            "py-xs",
+            "border",
+            "border-outline-variant",
+            "rounded",
+            "bg-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "text-on-surface",
+            "hover:border-primary",
+            "focus:border-primary",
+            "outline-none",
+            "min-w-[80px]",
+            "text-center"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "W",
+          "classes": [
+            "px-sm",
+            "py-xs",
+            "border",
+            "border-outline-variant",
+            "rounded",
+            "bg-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "text-on-surface",
+            "hover:border-primary",
+            "focus:border-primary",
+            "outline-none",
+            "min-w-[80px]",
+            "text-center"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "ArrowDown",
+          "classes": [
+            "px-sm",
+            "py-xs",
+            "border",
+            "border-outline-variant",
+            "rounded",
+            "bg-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "text-on-surface",
+            "hover:border-primary",
+            "focus:border-primary",
+            "outline-none",
+            "min-w-[80px]",
+            "text-center"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "S",
+          "classes": [
+            "px-sm",
+            "py-xs",
+            "border",
+            "border-outline-variant",
+            "rounded",
+            "bg-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "text-on-surface",
+            "hover:border-primary",
+            "focus:border-primary",
+            "outline-none",
+            "min-w-[80px]",
+            "text-center"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Space",
+          "classes": [
+            "px-sm",
+            "py-xs",
+            "border",
+            "border-outline-variant",
+            "rounded",
+            "bg-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "text-on-surface",
+            "hover:border-primary",
+            "focus:border-primary",
+            "outline-none",
+            "min-w-[80px]",
+            "text-center"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "None",
+          "classes": [
+            "px-sm",
+            "py-xs",
+            "border",
+            "border-outline-variant",
+            "rounded",
+            "bg-surface",
+            "font-mono-data",
+            "text-mono-data",
+            "text-on-surface",
+            "hover:border-primary",
+            "focus:border-primary",
+            "outline-none",
+            "min-w-[80px]",
+            "text-center"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Reset to Defaults",
+          "classes": [
+            "px-lg",
+            "py-sm",
+            "border",
+            "border-outline-variant",
+            "text-[#F8FAFC]",
+            "font-label-caps",
+            "text-label-caps",
+            "uppercase",
+            "rounded-lg",
+            "hover:bg-surface-variant",
+            "active:scale-98",
+            "transition-all"
+          ],
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Save Changes",
+          "classes": [
+            "px-lg",
+            "py-sm",
+            "bg-primary-container",
+            "text-[#F8FAFC]",
+            "font-label-caps",
+            "text-label-caps",
+            "uppercase",
+            "rounded-lg",
+            "hover:brightness-110",
+            "active:scale-98",
+            "transition-all"
+          ],
+          "icon": null,
+          "action": "form-submit",
+          "expectedBehavior": "validate inputs and submit/apply changes"
+        },
+        {
+          "kind": "button",
+          "label": "Tetris Clean",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "person",
+          "classes": [],
+          "icon": "person",
+          "action": "navigate",
+          "expectedRoute": "/profile",
+          "routeInferred": true,
+          "expectedBehavior": "navigate:/profile"
+        },
+        {
+          "kind": "button",
+          "label": "Pro Account",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "classes": [],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedRoute": "/settings",
+          "routeInferred": true,
+          "expectedBehavior": "navigate:/settings"
+        }
+      ],
+      "inputs": [
+        {
+          "kind": "input",
+          "type": "range",
+          "label": "range",
+          "placeholder": "",
+          "name": "",
+          "classes": [
+            "w-full",
+            "h-1",
+            "bg-[#475569]",
+            "rounded-full",
+            "appearance-none",
+            "outline-none",
+            "focus:ring-2",
+            "focus:ring-primary-container",
+            "focus:ring-offset-2",
+            "focus:ring-offset-background"
+          ],
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        },
+        {
+          "kind": "input",
+          "type": "checkbox",
+          "label": "toggle",
+          "placeholder": "",
+          "name": "toggle",
+          "classes": [
+            "toggle-checkbox",
+            "absolute",
+            "block",
+            "w-6",
+            "h-6",
+            "rounded-full",
+            "bg-[#F8FAFC]",
+            "border-4",
+            "border-surface-container-low",
+            "appearance-none",
+            "cursor-pointer",
+            "z-10"
+          ],
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Play",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps",
+            "uppercase"
+          ],
+          "icon": "play_arrow",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Stats",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps",
+            "uppercase"
+          ],
+          "icon": "bar_chart",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "leaderboard",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps",
+            "uppercase"
+          ],
+          "icon": "leaderboard",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "settings",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps",
+            "uppercase"
+          ],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        }
+      ],
+      "cards": [],
+      "icons": [
+        "person",
+        "play_arrow",
+        "bar_chart",
+        "leaderboard",
+        "settings",
+        "volume_mute",
+        "volume_up"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "secondary-fixed-dim": "#b9c7df",
+        "on-error": "#690005",
+        "inverse-surface": "#e1e2ed",
+        "tertiary": "#b9c7e0",
+        "tertiary-container": "#606e84",
+        "surface": "#11131b",
+        "on-tertiary-container": "#eaf0ff",
+        "primary": "#b4c5ff",
+        "secondary": "#b9c7df",
+        "secondary-container": "#3c4a5e",
+        "on-secondary-fixed-variant": "#3a485b",
+        "surface-bright": "#373942",
+        "tertiary-fixed-dim": "#b9c7e0",
+        "secondary-fixed": "#d5e3fc",
+        "on-primary-container": "#eeefff",
+        "surface-container": "#1d1f27",
+        "on-surface-variant": "#c3c6d7",
+        "tertiary-fixed": "#d5e3fd",
+        "on-primary": "#002a78",
+        "surface-variant": "#32343d",
+        "outline-variant": "#434655",
+        "background": "#11131b",
+        "on-background": "#e1e2ed",
+        "on-secondary-container": "#abb9d1",
+        "on-tertiary-fixed-variant": "#3a485c",
+        "on-secondary-fixed": "#0d1c2e",
+        "surface-container-high": "#282a32",
+        "on-primary-fixed-variant": "#003ea8",
+        "primary-fixed-dim": "#b4c5ff",
+        "on-secondary": "#233144",
+        "on-tertiary-fixed": "#0d1c2f",
+        "on-primary-fixed": "#00174b",
+        "error-container": "#93000a",
+        "inverse-primary": "#0053db",
+        "surface-container-lowest": "#0c0e16",
+        "surface-dim": "#11131b",
+        "on-surface": "#e1e2ed",
+        "surface-container-low": "#191b23",
+        "outline": "#8d90a0",
+        "on-error-container": "#ffdad6",
+        "surface-tint": "#b4c5ff",
+        "primary-container": "#2563eb",
+        "surface-container-highest": "#32343d",
+        "inverse-on-surface": "#2e3039",
+        "error": "#ffb4ab",
+        "primary-fixed": "#dbe1ff",
+        "on-tertiary": "#233144"
+      },
+      "fonts": [
+        "Material Symbols Outlined",
+        "Inter",
+        "JetBrains Mono"
+      ],
+      "layoutHints": {
+        "flexDirection": "col"
+      },
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Play",
+          "icon": "play_arrow",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Stats",
+          "icon": "bar_chart",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "leaderboard",
+          "icon": "leaderboard",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "settings",
+          "icon": "settings",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "icon": "settings",
+          "action": "navigate",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "button",
+          "label": "1",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "2",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "3",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "4",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "5",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "6",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "7",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "8",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "9",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "10",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "ArrowLeft",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "A",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "ArrowRight",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "D",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "ArrowUp",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "W",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "ArrowDown",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "S",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Space",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "None",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Reset to Defaults",
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Save Changes",
+          "icon": null,
+          "action": "form-submit",
+          "expectedBehavior": "validate inputs and submit/apply changes"
+        },
+        {
+          "kind": "button",
+          "label": "Tetris Clean",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "person",
+          "icon": "person",
+          "action": "navigate",
+          "route": "/profile",
+          "expectedBehavior": "navigate:/profile"
+        },
+        {
+          "kind": "button",
+          "label": "Pro Account",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "icon": "settings",
+          "action": "navigate",
+          "route": "/settings",
+          "expectedBehavior": "navigate:/settings"
+        },
+        {
+          "kind": "input",
+          "label": "range",
+          "type": "range",
+          "placeholder": "",
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        },
+        {
+          "kind": "input",
+          "label": "toggle",
+          "type": "checkbox",
+          "placeholder": "",
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "Tetris Clean",
+          "icon": null,
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "person",
+          "icon": "person",
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Pro Account",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Play",
+          "icon": "play_arrow",
+          "route": "#",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Stats",
+          "icon": "bar_chart",
+          "route": "#",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "leaderboard",
+          "icon": "leaderboard",
+          "route": "#",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "settings",
+          "icon": "settings",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "Tetris Clean",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "icon": "settings",
+          "active": false
+        }
+      ],
+      "title": "Settings - Tetris Clean"
+    },
+    "ca3828aa6dad406a99c53a7269b1de23": {
+      "screenId": "ca3828aa6dad406a99c53a7269b1de23",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "main",
+          "layout": "flex-row",
+          "classes": [
+            "relative",
+            "z-10",
+            "w-full",
+            "max-w-md",
+            "bg-surface-container",
+            "border",
+            "border-outline-variant",
+            "rounded-xl",
+            "p-xl",
+            "flex"
+          ],
+          "childCount": 8
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Play Again",
+          "classes": [
+            "w-full",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-sm",
+            "bg-primary-container",
+            "text-on-primary-container",
+            "font-title-sm",
+            "text-title-sm",
+            "py-md",
+            "rounded-lg",
+            "hover:brightness-110",
+            "active:scale-[0.98]",
+            "transition-all",
+            "duration-150"
+          ],
+          "icon": "play_arrow",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Score",
+          "classes": [
+            "flex-1",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-xs",
+            "border",
+            "border-outline-variant",
+            "bg-transparent",
+            "text-on-surface",
+            "font-title-sm",
+            "text-title-sm",
+            "py-sm",
+            "rounded-lg",
+            "hover:bg-surface-variant",
+            "active:scale-[0.98]",
+            "transition-all",
+            "duration-150"
+          ],
+          "icon": "share",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Main",
+          "classes": [
+            "flex-1",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-xs",
+            "border",
+            "border-outline-variant",
+            "bg-transparent",
+            "text-on-surface",
+            "font-title-sm",
+            "text-title-sm",
+            "py-sm",
+            "rounded-lg",
+            "hover:bg-surface-variant",
+            "active:scale-[0.98]",
+            "transition-all",
+            "duration-150"
+          ],
+          "icon": "menu",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [
+        "emoji_events",
+        "play_arrow",
+        "share",
+        "menu"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "secondary-fixed-dim": "#b9c7df",
+        "on-error": "#690005",
+        "inverse-surface": "#e1e2ed",
+        "tertiary": "#b9c7e0",
+        "tertiary-container": "#606e84",
+        "surface": "#11131b",
+        "on-tertiary-container": "#eaf0ff",
+        "primary": "#b4c5ff",
+        "secondary": "#b9c7df",
+        "secondary-container": "#3c4a5e",
+        "on-secondary-fixed-variant": "#3a485b",
+        "surface-bright": "#373942",
+        "tertiary-fixed-dim": "#b9c7e0",
+        "secondary-fixed": "#d5e3fc",
+        "on-primary-container": "#eeefff",
+        "surface-container": "#1d1f27",
+        "on-surface-variant": "#c3c6d7",
+        "tertiary-fixed": "#d5e3fd",
+        "on-primary": "#002a78",
+        "surface-variant": "#32343d",
+        "outline-variant": "#434655",
+        "background": "#11131b",
+        "on-background": "#e1e2ed",
+        "on-secondary-container": "#abb9d1",
+        "on-tertiary-fixed-variant": "#3a485c",
+        "on-secondary-fixed": "#0d1c2e",
+        "surface-container-high": "#282a32",
+        "on-primary-fixed-variant": "#003ea8",
+        "primary-fixed-dim": "#b4c5ff",
+        "on-secondary": "#233144",
+        "on-tertiary-fixed": "#0d1c2f",
+        "on-primary-fixed": "#00174b",
+        "error-container": "#93000a",
+        "inverse-primary": "#0053db",
+        "surface-container-lowest": "#0c0e16",
+        "surface-dim": "#11131b",
+        "on-surface": "#e1e2ed",
+        "surface-container-low": "#191b23",
+        "outline": "#8d90a0",
+        "on-error-container": "#ffdad6",
+        "surface-tint": "#b4c5ff",
+        "primary-container": "#2563eb",
+        "surface-container-highest": "#32343d",
+        "inverse-on-surface": "#2e3039",
+        "error": "#ffb4ab",
+        "primary-fixed": "#dbe1ff",
+        "on-tertiary": "#233144"
+      },
+      "fonts": [
+        "Inter",
+        "JetBrains Mono",
+        "Material Symbols Outlined"
+      ],
+      "layoutHints": {
+        "gridCols": 2,
+        "flexDirection": "col"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Play Again",
+          "icon": "play_arrow",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Score",
+          "icon": "share",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Main",
+          "icon": "menu",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "Play Again",
+          "icon": "play_arrow",
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "Score",
+          "icon": "share",
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "Main",
+          "icon": "menu",
+          "active": true
+        }
+      ],
+      "title": "Results - Tetris Clean"
+    }
+  }
+}

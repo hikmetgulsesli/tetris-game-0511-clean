@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tetris Clean - Session Terminated</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "secondary-fixed-dim": "#b9c7df",
+                    "on-error": "#690005",
+                    "inverse-surface": "#e1e2ed",
+                    "tertiary": "#b9c7e0",
+                    "tertiary-container": "#606e84",
+                    "surface": "#11131b",
+                    "on-tertiary-container": "#eaf0ff",
+                    "primary": "#b4c5ff",
+                    "secondary": "#b9c7df",
+                    "secondary-container": "#3c4a5e",
+                    "on-secondary-fixed-variant": "#3a485b",
+                    "surface-bright": "#373942",
+                    "tertiary-fixed-dim": "#b9c7e0",
+                    "secondary-fixed": "#d5e3fc",
+                    "on-primary-container": "#eeefff",
+                    "surface-container": "#1d1f27",
+                    "on-surface-variant": "#c3c6d7",
+                    "tertiary-fixed": "#d5e3fd",
+                    "on-primary": "#002a78",
+                    "surface-variant": "#32343d",
+                    "outline-variant": "#434655",
+                    "background": "#11131b",
+                    "on-background": "#e1e2ed",
+                    "on-secondary-container": "#abb9d1",
+                    "on-tertiary-fixed-variant": "#3a485c",
+                    "on-secondary-fixed": "#0d1c2e",
+                    "surface-container-high": "#282a32",
+                    "on-primary-fixed-variant": "#003ea8",
+                    "primary-fixed-dim": "#b4c5ff",
+                    "on-secondary": "#233144",
+                    "on-tertiary-fixed": "#0d1c2f",
+                    "on-primary-fixed": "#00174b",
+                    "error-container": "#93000a",
+                    "inverse-primary": "#0053db",
+                    "surface-container-lowest": "#0c0e16",
+                    "surface-dim": "#11131b",
+                    "on-surface": "#e1e2ed",
+                    "surface-container-low": "#191b23",
+                    "outline": "#8d90a0",
+                    "on-error-container": "#ffdad6",
+                    "surface-tint": "#b4c5ff",
+                    "primary-container": "#2563eb",
+                    "surface-container-highest": "#32343d",
+                    "inverse-on-surface": "#2e3039",
+                    "error": "#ffb4ab",
+                    "primary-fixed": "#dbe1ff",
+                    "on-tertiary": "#233144"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "md": "16px",
+                    "xs": "4px",
+                    "xl": "32px",
+                    "panel-padding": "20px",
+                    "lg": "24px",
+                    "gutter": "16px",
+                    "unit": "4px",
+                    "sm": "8px"
+            },
+            "fontFamily": {
+                    "mono-data": ["JetBrains Mono"],
+                    "label-caps": ["Inter"],
+                    "title-sm": ["Inter"],
+                    "body-sm": ["Inter"],
+                    "display-lg": ["Inter"],
+                    "headline-md": ["Inter"],
+                    "body-md": ["Inter"]
+            },
+            "fontSize": {
+                    "mono-data": ["14px", {"lineHeight": "1", "fontWeight": "500"}],
+                    "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "title-sm": ["18px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "display-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface-container-lowest text-on-surface h-screen w-screen flex items-center justify-center overflow-hidden relative">
+<!-- Dimmed Background Overlay simulating inactive game board -->
+<div aria-hidden="true" class="absolute inset-0 bg-background/80 flex items-center justify-center backdrop-blur-sm z-0">
+<!-- Abstract grid pattern simulating the board behind the modal -->
+<div class="w-full h-full opacity-10" style="background-image: linear-gradient(to right, #434655 1px, transparent 1px), linear-gradient(to bottom, #434655 1px, transparent 1px); background-size: 32px 32px;"></div>
+</div>
+<!-- Modal Container -->
+<main class="relative z-10 w-full max-w-md bg-surface-container border border-outline-variant rounded-xl p-xl flex flex-col gap-xl shadow-2xl">
+<!-- Header Section -->
+<header class="flex flex-col items-center gap-sm text-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">Session Terminated</span>
+<h1 class="font-display-lg text-display-lg text-on-surface">Game Over</h1>
+</header>
+<!-- Primary Score Section -->
+<section class="flex flex-col items-center gap-sm bg-surface border border-outline-variant rounded-lg p-lg relative overflow-hidden">
+<!-- Subtle highlight top border -->
+<div class="absolute top-0 left-0 right-0 h-1 bg-primary-container"></div>
+<h2 class="font-label-caps text-label-caps text-on-surface-variant">Total Score</h2>
+<div class="font-display-lg text-display-lg text-primary-container tracking-tight">
+                845,290
+            </div>
+<!-- New Record Badge -->
+<div class="mt-xs bg-primary-container/10 border border-primary-container text-primary-container font-label-caps text-label-caps px-md py-xs rounded-full flex items-center justify-center gap-xs">
+<span class="material-symbols-outlined text-[14px]">emoji_events</span>
+                New Record!
+            </div>
+</section>
+<!-- Secondary Stats Grid -->
+<section class="grid grid-cols-2 gap-md">
+<!-- Level Reached Module -->
+<div class="bg-surface border border-outline-variant rounded-lg p-md flex flex-col gap-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Level Reached</span>
+<span class="font-mono-data text-mono-data text-on-surface text-lg">24</span>
+</div>
+<!-- Lines Cleared Module -->
+<div class="bg-surface border border-outline-variant rounded-lg p-md flex flex-col gap-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Lines Cleared</span>
+<span class="font-mono-data text-mono-data text-on-surface text-lg">218</span>
+</div>
+</section>
+<!-- Actions / CTAs -->
+<footer class="flex flex-col gap-md pt-sm">
+<!-- Primary Action -->
+<button class="w-full flex items-center justify-center gap-sm bg-primary-container text-on-primary-container font-title-sm text-title-sm py-md rounded-lg hover:brightness-110 active:scale-[0.98] transition-all duration-150">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+                Play Again
+            </button>
+<!-- Secondary Actions Row -->
+<div class="flex gap-md w-full">
+<button class="flex-1 flex items-center justify-center gap-xs border border-outline-variant bg-transparent text-on-surface font-title-sm text-title-sm py-sm rounded-lg hover:bg-surface-variant active:scale-[0.98] transition-all duration-150">
+<span class="material-symbols-outlined text-[18px]">share</span>
+                    Share Score
+                </button>
+<button class="flex-1 flex items-center justify-center gap-xs border border-outline-variant bg-transparent text-on-surface font-title-sm text-title-sm py-sm rounded-lg hover:bg-surface-variant active:scale-[0.98] transition-all duration-150">
+<span class="material-symbols-outlined text-[18px]">menu</span>
+                    Main Menu
+                </button>
+</div>
+</footer>
+</main>
+</body></html>
