@@ -1,0 +1,635 @@
+[
+  {
+    "screenId": "ca3828aa6dad406a99c53a7269b1de23",
+    "screenTitle": "Results - Tetris Clean",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Play Again",
+        "line": 158
+      },
+      {
+        "type": "button",
+        "label": "Score",
+        "line": 164
+      },
+      {
+        "type": "button",
+        "label": "Main",
+        "line": 168
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Play Again",
+        "line": 158
+      },
+      {
+        "type": "button",
+        "label": "Score",
+        "line": 164
+      },
+      {
+        "type": "button",
+        "label": "Main",
+        "line": 168
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 3,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "ae418463fbf546c1b85ca08446045209",
+    "screenTitle": "Settings - Tetris Clean",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Play",
+        "href": "#",
+        "line": 218
+      },
+      {
+        "type": "link",
+        "label": "Stats",
+        "href": "#",
+        "line": 222
+      },
+      {
+        "type": "link",
+        "label": "leaderboard",
+        "href": "#",
+        "line": 226
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 230
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 240
+      },
+      {
+        "type": "button",
+        "label": "1",
+        "line": 319
+      },
+      {
+        "type": "button",
+        "label": "2",
+        "line": 320
+      },
+      {
+        "type": "button",
+        "label": "3",
+        "line": 321
+      },
+      {
+        "type": "button",
+        "label": "4",
+        "line": 322
+      },
+      {
+        "type": "button",
+        "label": "5",
+        "line": 323
+      },
+      {
+        "type": "button",
+        "label": "6",
+        "line": 324
+      },
+      {
+        "type": "button",
+        "label": "7",
+        "line": 325
+      },
+      {
+        "type": "button",
+        "label": "8",
+        "line": 326
+      },
+      {
+        "type": "button",
+        "label": "9",
+        "line": 327
+      },
+      {
+        "type": "button",
+        "label": "10",
+        "line": 328
+      },
+      {
+        "type": "button",
+        "label": "ArrowLeft",
+        "line": 350
+      },
+      {
+        "type": "button",
+        "label": "A",
+        "line": 353
+      },
+      {
+        "type": "button",
+        "label": "ArrowRight",
+        "line": 359
+      },
+      {
+        "type": "button",
+        "label": "D",
+        "line": 362
+      },
+      {
+        "type": "button",
+        "label": "ArrowUp",
+        "line": 368
+      },
+      {
+        "type": "button",
+        "label": "W",
+        "line": 371
+      },
+      {
+        "type": "button",
+        "label": "ArrowDown",
+        "line": 377
+      },
+      {
+        "type": "button",
+        "label": "S",
+        "line": 380
+      },
+      {
+        "type": "button",
+        "label": "Space",
+        "line": 386
+      },
+      {
+        "type": "button",
+        "label": "None",
+        "line": 389
+      },
+      {
+        "type": "button",
+        "label": "Reset to Defaults",
+        "line": 398
+      },
+      {
+        "type": "button",
+        "label": "Save Changes",
+        "line": 401
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 268
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 282
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 285
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 298
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 301
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Play",
+        "href": "#",
+        "line": 218
+      },
+      {
+        "type": "link",
+        "label": "Stats",
+        "href": "#",
+        "line": 222
+      },
+      {
+        "type": "link",
+        "label": "leaderboard",
+        "href": "#",
+        "line": 226
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 230
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 240
+      },
+      {
+        "type": "button",
+        "label": "1",
+        "line": 319
+      },
+      {
+        "type": "button",
+        "label": "2",
+        "line": 320
+      },
+      {
+        "type": "button",
+        "label": "3",
+        "line": 321
+      },
+      {
+        "type": "button",
+        "label": "4",
+        "line": 322
+      },
+      {
+        "type": "button",
+        "label": "5",
+        "line": 323
+      },
+      {
+        "type": "button",
+        "label": "6",
+        "line": 324
+      },
+      {
+        "type": "button",
+        "label": "7",
+        "line": 325
+      },
+      {
+        "type": "button",
+        "label": "8",
+        "line": 326
+      },
+      {
+        "type": "button",
+        "label": "9",
+        "line": 327
+      },
+      {
+        "type": "button",
+        "label": "10",
+        "line": 328
+      },
+      {
+        "type": "button",
+        "label": "ArrowLeft",
+        "line": 350
+      },
+      {
+        "type": "button",
+        "label": "A",
+        "line": 353
+      },
+      {
+        "type": "button",
+        "label": "ArrowRight",
+        "line": 359
+      },
+      {
+        "type": "button",
+        "label": "D",
+        "line": 362
+      },
+      {
+        "type": "button",
+        "label": "ArrowUp",
+        "line": 368
+      },
+      {
+        "type": "button",
+        "label": "W",
+        "line": 371
+      },
+      {
+        "type": "button",
+        "label": "ArrowDown",
+        "line": 377
+      },
+      {
+        "type": "button",
+        "label": "S",
+        "line": 380
+      },
+      {
+        "type": "button",
+        "label": "Space",
+        "line": 386
+      },
+      {
+        "type": "button",
+        "label": "None",
+        "line": 389
+      },
+      {
+        "type": "button",
+        "label": "Reset to Defaults",
+        "line": 398
+      },
+      {
+        "type": "button",
+        "label": "Save Changes",
+        "line": 401
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 268
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 282
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 285
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 298
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 301
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 32,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "61a720519dee4b4f90709a1992b289ae",
+    "screenTitle": "Main Menu - Tetris Clean",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Play",
+        "href": "#",
+        "line": 135
+      },
+      {
+        "type": "link",
+        "label": "Stats",
+        "href": "#",
+        "line": 139
+      },
+      {
+        "type": "link",
+        "label": "leaderboard",
+        "href": "#",
+        "line": 143
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 147
+      },
+      {
+        "type": "button",
+        "label": "help",
+        "line": 159
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 162
+      },
+      {
+        "type": "button",
+        "label": "RESUME GAME",
+        "line": 188
+      },
+      {
+        "type": "button",
+        "label": "NEW GAME",
+        "line": 191
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Play",
+        "href": "#",
+        "line": 135
+      },
+      {
+        "type": "link",
+        "label": "Stats",
+        "href": "#",
+        "line": 139
+      },
+      {
+        "type": "link",
+        "label": "leaderboard",
+        "href": "#",
+        "line": 143
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 147
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "help",
+        "line": 159
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 162
+      },
+      {
+        "type": "button",
+        "label": "RESUME GAME",
+        "line": 188
+      },
+      {
+        "type": "button",
+        "label": "NEW GAME",
+        "line": 191
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 8,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "1a12e75855764668b3ef4d4a5573a34c",
+    "screenTitle": "Help & Rules - Tetris Clean",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "arrow_back",
+        "line": 166
+      },
+      {
+        "type": "button",
+        "label": "Initialize Sequence",
+        "line": 263
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "arrow_back",
+        "line": 166
+      },
+      {
+        "type": "button",
+        "label": "Initialize Sequence",
+        "line": 263
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 2,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "89163b57e3f644898d239c706aec5a21",
+    "screenTitle": "Playfield - Tetris Clean",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Play",
+        "href": "#",
+        "line": 205
+      },
+      {
+        "type": "link",
+        "label": "Stats",
+        "href": "#",
+        "line": 210
+      },
+      {
+        "type": "link",
+        "label": "leaderboard",
+        "href": "#",
+        "line": 214
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 218
+      },
+      {
+        "type": "button",
+        "label": "help",
+        "line": 189
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 192
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 352
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Play",
+        "href": "#",
+        "line": 205
+      },
+      {
+        "type": "link",
+        "label": "Stats",
+        "href": "#",
+        "line": 210
+      },
+      {
+        "type": "link",
+        "label": "leaderboard",
+        "href": "#",
+        "line": 214
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 218
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "help",
+        "line": 189
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 192
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 352
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 7,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
